@@ -40,6 +40,11 @@ def steering(value):
     current_pulse = int((value + 1) * 0.5 * diff + minpulse)
     pulse(0, current_pulse)
 
+def duration(channel, dur, pulse1, pulse2):
+    pulse(channel, pulse1)
+    time.sleep(dur)
+    pulse(channel, pulse2)
+
 pulse(1, 1500)
 pulse(0, 1500)
 
@@ -48,6 +53,10 @@ if __name__=="__main__":
 
     while True:
         steering(0.9*math.sin(time.time()*10))
+        if (time.time() // 2 == 0):
+            pulse(1, 1700)
+        else:
+            pulse(1, 1500)
         time.sleep(0.001)
 
 
