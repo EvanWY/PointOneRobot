@@ -1,8 +1,0 @@
-prefix=/home/yang/Works/PointOneRobot/catkin_ws/install
-
-Name: jaws_movement
-Description: Description of jaws_movement
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/yang/Works/PointOneRobot/catkin_ws/install/lib 
-Requires: 

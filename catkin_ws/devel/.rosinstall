@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/yang/Works/PointOneRobot/catkin_ws/devel/setup.sh
+    local-name: /home/pi/Works/PointOneRobot/catkin_ws/devel/setup.sh

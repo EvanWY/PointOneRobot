@@ -1,0 +1,8 @@
+prefix=/home/pi/Works/PointOneRobot/catkin_ws/devel
+
+Name: point1_control
+Description: Description of point1_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/Works/PointOneRobot/catkin_ws/devel/lib 
+Requires: 

@@ -19,3 +19,7 @@ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 ```
 
 Compile the code with `catkin_make`.
+
+# How to install package?
+
+http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Indigo%20on%20Raspberry%20Pi

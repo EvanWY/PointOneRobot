@@ -1,2 +1,2 @@
-jaws_movement:video_stream_opencv
--DCATKIN_DEVEL_PREFIX=/home/yang/Works/PointOneRobot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yang/Works/PointOneRobot/catkin_ws/install -G Unix Makefiles
+point1_control:raspicam_node
+-DCATKIN_DEVEL_PREFIX=/home/pi/Works/PointOneRobot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/Works/PointOneRobot/catkin_ws/install -G Unix Makefiles
