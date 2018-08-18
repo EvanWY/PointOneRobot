@@ -46,11 +46,11 @@ def listener():
 
     def steering_callback(msg):
         steering(msg.data)
-    rospy.Subscriber('/vision/control_suggestion/steering', Float64, steering_callback)
+    rospy.Subscriber('/control/steering', Float64, steering_callback)
 
     def throttle_callback(msg):
         throttle(msg.data)
-    rospy.Subscriber('/vision/control_suggestion/throttle', Float64, throttle_callback)
+    rospy.Subscriber('/control/throttle', Float64, throttle_callback)
 
     print ('spinning')
     rospy.spin()
